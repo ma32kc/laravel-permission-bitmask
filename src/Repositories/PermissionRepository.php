@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Repositories;
+namespace Ma32kc\PermissionBitmask\Repositories;
 
 use Illuminate\Database\Eloquent\Collection;
-use Vendor\PermissionBitmask\Contracts\PermissionRepositoryInterface;
-use Vendor\PermissionBitmask\Models\Permission;
+use Ma32kc\PermissionBitmask\Contracts\PermissionRepositoryInterface;
+use Ma32kc\PermissionBitmask\Models\Permission;
 
 final class PermissionRepository implements PermissionRepositoryInterface
 {

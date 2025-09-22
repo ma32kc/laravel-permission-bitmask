@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Facades;
+namespace Ma32kc\PermissionBitmask\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Vendor\PermissionBitmask\Contracts\PermissionServiceInterface;
+use Ma32kc\PermissionBitmask\Contracts\PermissionServiceInterface;
 
 /**
  * @method static bool hasBitmaskByCode($model, string $code)

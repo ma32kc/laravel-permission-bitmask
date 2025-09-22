@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Middleware;
+namespace Ma32kc\PermissionBitmask\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
-use Vendor\PermissionBitmask\Facades\Permission;
+use Ma32kc\PermissionBitmask\Facades\Permission;
 
 /**
  * Middleware to check access policy based on bitmask permissions.

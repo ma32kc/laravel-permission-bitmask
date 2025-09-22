@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\PermissionBitmask\Tests\Support;
+namespace Ma32kc\PermissionBitmask\Tests\Support;
 
 class DummyController
 {

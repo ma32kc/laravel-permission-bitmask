@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask;
+namespace Ma32kc\PermissionBitmask;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\PermissionBitmask\Contracts\PermissionRepositoryInterface;
-use Vendor\PermissionBitmask\Contracts\PermissionServiceInterface;
-use Vendor\PermissionBitmask\Repositories\PermissionRepository;
-use Vendor\PermissionBitmask\PermissionService;
-use Vendor\PermissionBitmask\Middleware\CheckPermissionPolicy;
+use Ma32kc\PermissionBitmask\Contracts\PermissionRepositoryInterface;
+use Ma32kc\PermissionBitmask\Contracts\PermissionServiceInterface;
+use Ma32kc\PermissionBitmask\Repositories\PermissionRepository;
+use Ma32kc\PermissionBitmask\PermissionService;
+use Ma32kc\PermissionBitmask\Middleware\CheckPermissionPolicy;
 
 final class PermissionServiceProvider extends ServiceProvider
 {

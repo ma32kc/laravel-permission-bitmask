@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Tests;
+namespace Ma32kc\PermissionBitmask\Tests;
 
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Vendor\PermissionBitmask\PermissionServiceProvider;
+use Ma32kc\PermissionBitmask\PermissionServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

@@ -1,5 +1,5 @@
 {
-  "name": "vendor/permission-bitmask",
+  "name": "ma32kc/permission-bitmask",
   "description": "Reusable bitmask-based permission system for Laravel applications",
   "version": "1.0.0",
   "keywords": [
@@ -28,21 +28,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\PermissionBitmask\\": "src/"
+      "Ma32kc\\PermissionBitmask\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\PermissionBitmask\\Tests\\": "tests/"
+      "Ma32kc\\PermissionBitmask\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Vendor\\PermissionBitmask\\PermissionServiceProvider"
+        "Ma32kc\\PermissionBitmask\\PermissionServiceProvider"
       ],
       "aliases": {
-        "Permission": "Vendor\\PermissionBitmask\\Facades\\Permission"
+        "Permission": "Ma32kc\\PermissionBitmask\\Facades\\Permission"
       }
     }
   },

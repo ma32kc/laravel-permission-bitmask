@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Contracts;
+namespace Ma32kc\PermissionBitmask\Contracts;
 
 use Illuminate\Database\Eloquent\Collection;
-use Vendor\PermissionBitmask\Models\Permission;
+use Ma32kc\PermissionBitmask\Models\Permission;
 
 interface PermissionServiceInterface
 {

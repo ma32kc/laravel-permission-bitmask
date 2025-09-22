@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Tests\Feature;
+namespace Ma32kc\PermissionBitmask\Tests\Feature;
 
 use Illuminate\Support\Facades\Route;
-use Vendor\PermissionBitmask\Tests\Support\DummyController;
-use Vendor\PermissionBitmask\Tests\Support\TestUser;
-use Vendor\PermissionBitmask\Tests\TestCase;
-use Vendor\PermissionBitmask\Models\PermissionPolicy;
+use Ma32kc\PermissionBitmask\Tests\Support\DummyController;
+use Ma32kc\PermissionBitmask\Tests\Support\TestUser;
+use Ma32kc\PermissionBitmask\Tests\TestCase;
+use Ma32kc\PermissionBitmask\Models\PermissionPolicy;
 
 final class MiddlewareTest extends TestCase
 {

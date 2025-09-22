@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask;
+namespace Ma32kc\PermissionBitmask;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Validation\ValidationException;
-use Vendor\PermissionBitmask\Contracts\PermissionRepositoryInterface;
-use Vendor\PermissionBitmask\Contracts\PermissionServiceInterface;
-use Vendor\PermissionBitmask\Models\Permission;
-use Vendor\PermissionBitmask\Models\PermissionPolicy;
+use Ma32kc\PermissionBitmask\Contracts\PermissionRepositoryInterface;
+use Ma32kc\PermissionBitmask\Contracts\PermissionServiceInterface;
+use Ma32kc\PermissionBitmask\Models\Permission;
+use Ma32kc\PermissionBitmask\Models\PermissionPolicy;
 
 /**
  * Service for managing permissions with bitmasks.

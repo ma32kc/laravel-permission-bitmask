@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Tests\Feature;
+namespace Ma32kc\PermissionBitmask\Tests\Feature;
 
-use Vendor\PermissionBitmask\Facades\Permission;
-use Vendor\PermissionBitmask\Models\Permission as PermissionModel;
-use Vendor\PermissionBitmask\Tests\TestCase;
-use Vendor\PermissionBitmask\Tests\Support\TestUser;
+use Ma32kc\PermissionBitmask\Facades\Permission;
+use Ma32kc\PermissionBitmask\Models\Permission as PermissionModel;
+use Ma32kc\PermissionBitmask\Tests\TestCase;
+use Ma32kc\PermissionBitmask\Tests\Support\TestUser;
 
 final class PermissionServiceTest extends TestCase
 {

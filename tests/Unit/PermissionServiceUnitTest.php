@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Tests\Unit;
+namespace Ma32kc\PermissionBitmask\Tests\Unit;
 
 use PHPUnit\Framework\TestCase as FrameworkTestCase;
-use Vendor\PermissionBitmask\Contracts\PermissionRepositoryInterface;
-use Vendor\PermissionBitmask\Models\Permission;
-use Vendor\PermissionBitmask\PermissionService;
+use Ma32kc\PermissionBitmask\Contracts\PermissionRepositoryInterface;
+use Ma32kc\PermissionBitmask\Models\Permission;
+use Ma32kc\PermissionBitmask\PermissionService;
 
 final class PermissionServiceUnitTest extends FrameworkTestCase
 {

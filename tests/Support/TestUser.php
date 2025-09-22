@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vendor\PermissionBitmask\Tests\Support;
+namespace Ma32kc\PermissionBitmask\Tests\Support;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
