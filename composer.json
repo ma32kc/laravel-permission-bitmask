@@ -1,0 +1,54 @@
+{
+  "name": "vendor/permission-bitmask",
+  "description": "Reusable bitmask-based permission system for Laravel applications",
+  "version": "1.0.0",
+  "keywords": [
+    "laravel",
+    "permissions",
+    "bitmask",
+    "acl",
+    "authorization",
+    "policy"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Golovin Max",
+      "email": "ma32kc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2 || ^8.3 || ^8.4",
+    "laravel/framework": "^12.0 || ^11.0 || ^10.0 || ^9.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0 || ^10.0 || ^9.6",
+    "mockery/mockery": "^1.6",
+    "orchestra/testbench": "9.0" 
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\PermissionBitmask\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vendor\\PermissionBitmask\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vendor\\PermissionBitmask\\PermissionServiceProvider"
+      ],
+      "aliases": {
+        "Permission": "Vendor\\PermissionBitmask\\Facades\\Permission"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit --testdox"
+  }
+}
